@@ -25,8 +25,22 @@
 		<transition>
 			<from>0</from>
 			<to>0</to>
+			<read>2</read>
+			<write>2</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>0</to>
 			<read>0</read>
 			<write>0</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>0</to>
+			<read>P</read>
+			<write>P</write>
 			<move>R</move>
 		</transition>
 		<transition>
@@ -39,8 +53,22 @@
 		<transition>
 			<from>0</from>
 			<to>0</to>
-			<read>2</read>
-			<write>2</write>
+			<read>O</read>
+			<write>O</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>0</to>
+			<read>N</read>
+			<write>N</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>0</to>
+			<read>:</read>
+			<write>:</write>
 			<move>R</move>
 		</transition>
 		<transition>
@@ -67,6 +95,13 @@
 		<transition>
 			<from>0</from>
 			<to>0</to>
+			<read>L</read>
+			<write>L</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>0</to>
 			<read>6</read>
 			<write>6</write>
 			<move>R</move>
@@ -88,6 +123,20 @@
 		<transition>
 			<from>0</from>
 			<to>0</to>
+			<read>+</read>
+			<write>+</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>0</to>
+			<read>,</read>
+			<write>,</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>0</to>
 			<read>9</read>
 			<write>9</write>
 			<move>R</move>
@@ -104,41 +153,6 @@
 			<to>0</to>
 			<read>-</read>
 			<write>-</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>0</to>
-			<read>L</read>
-			<write>L</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>0</to>
-			<read>+</read>
-			<write>+</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>0</to>
-			<read>O</read>
-			<write>O</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>0</to>
-			<read>:</read>
-			<write>:</write>
-			<move>R</move>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>0</to>
-			<read>,</read>
-			<write>,</write>
 			<move>R</move>
 		</transition>
 		<!--The list of automata-->
