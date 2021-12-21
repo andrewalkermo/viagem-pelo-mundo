@@ -4,7 +4,7 @@
 3. Abra o arquivo `viagem_pelo_mundo.jff`
 
 # Especificação
-    Especificação do projeto está no arquivo [Projeto - A viagem pelo mundo (mt).pdf](https://github.com/andrewalkermo/viagem-pelo-mundo/blob/16bdac7a7ad58a779ba197ca56d132e4f38e89c9/Projeto%20-%20A%20viagem%20pelo%20mundo%20(mt).pdf)
+* Especificação do projeto está no arquivo [Projeto - A viagem pelo mundo (mt).pdf](https://github.com/andrewalkermo/viagem-pelo-mundo/blob/16bdac7a7ad58a779ba197ca56d132e4f38e89c9/Projeto%20-%20A%20viagem%20pelo%20mundo%20(mt).pdf)
 
 # Documentação
 
