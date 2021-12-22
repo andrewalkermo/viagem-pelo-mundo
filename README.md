@@ -10,17 +10,17 @@
 
 ## Entrada
 * ### Formato
-  * [[SENTIDO]](#SENTIDO),[[LONGITUDE_ORIGEM]](#LONGITUDE_ORIGEM),[[LONGITUDE_DESTINO]](#LONGITUDE_DESTINO),[[DURACAO_VIAGEM]](#DURACAO_VIAGEM),[[HORA_MINUTO]](#HORA_MINUTO)
+  * [[SENTIDO]](#SENTIDO),[[LONGITUDE_ORIGEM]](#LONGITUDE_ORIGEM),[[LONGITUDE_DESTINO]](#LONGITUDE_DESTINO),[[DURACAO_VIAGEM]](#DURACAO_VIAGEM),[[HORA_LOCAL]](#HORA_MINUTO)
 * ### Exemplo
   * [O](#SENTIDO),[53O](#LONGITUDE_ORIGEM),[75L](#LONGITUDE_DESTINO),[05:52](#DURACAO_VIAGEM),[10:32](#HORA_MINUTO)
 
 ## Saída
 * ### Formato
-  * [[HORA_MINUTO]](#HORA_MINUTO) que pode vir depois de um indicador de dias.
+  * [[HORA_FINAL]](#HORA_FINAL)
 * ### Exemplo
-  * [09:10](#HORA_MINUTO)
-  * [+1_10:54](#HORA_MINUTO)
-  * [-1_13:41](#HORA_MINUTO)
+  * [09:10](#HORA_FINAL)
+  * [+1_10:54](#HORA_FINAL)
+  * [-1_13:41](#HORA_FINAL)
 
 ## SENTIDO
 * ### Formato
@@ -50,3 +50,11 @@
   * HORA_MINUTO (HH:ii)
 * ### Exemplo
   * 22:01
+
+## HORA_FINAL
+* ### Formato
+  * Indicador de dias positivo ou negativo, seguido da hora no lugar de destino.
+* ### Exemplo
+  * 09:10
+  * +1_10:54
+  * -2_13:41
