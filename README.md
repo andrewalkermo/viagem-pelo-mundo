@@ -1,6 +1,6 @@
 # Viagem pelo mundo - Turing machine
 
-![Inputs JFLAP](docs/inputs.jpg)
+![Inputs JFLAP](docs/inputs.png)
 ## Execução
 1. Execute o arquivo [JFLAP7.1.jar](https://github.com/andrewalkermo/viagem-pelo-mundo/blob/16bdac7a7ad58a779ba197ca56d132e4f38e89c9/JFLAP7.1.jar)
 2. Selecione a opção "Turing Machine with Building blocks"
